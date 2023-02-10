@@ -1,0 +1,117 @@
+:root {
+    --darkText: #000000;
+    --LightText: #ffffff;
+}
+.item { 
+
+    scroll-snap-align: start;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.item-text {
+
+    margin-top: 6rem;
+
+}
+
+.item-text h1 {
+    
+    color: var(--darkText);
+    font-size: 2.75rem;
+    font-weight: 500;
+
+}
+
+.item-buttons {
+
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 30px;
+
+}
+
+.item-buttons button {
+
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px 0;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.item {
+    scroll-snap-align: start;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.item-text  {
+    margin-top: 6rem;
+}
+
+.item-text h1 {
+    color: #222;
+    font-size: 2.75rem;
+    font-weight: 500;
+}
+
+.item-buttons button:first-child {
+
+    color: #ffffff;
+    border: 2px solid #8c8c8c;
+}
+
+.item-buttons {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    gap: 150px;
+}
+
+.item-buttons button {
+    width: 300px;
+    border-radius: 10px;
+    padding: 15px 0;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media(max-width: 880px) {
+
+    .item-buttons {
+
+        flex-direction: column;
+        bottom: 5%;
+    }
+}
