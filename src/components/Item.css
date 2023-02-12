@@ -1,7 +1,8 @@
 :root {
-    --darkText: #000000;
+    --darkText: #474444;
     --LightText: #ffffff;
 }
+
 .item { 
 
     scroll-snap-align: start;
@@ -25,8 +26,6 @@
 }
 
 .item-text h1 {
-    
-    color: var(--darkText);
     font-size: 2.75rem;
     font-weight: 500;
 
@@ -76,7 +75,7 @@
 }
 
 .item-text h1 {
-    color: #222;
+    color: var(--darkText);
     font-size: 2.75rem;
     font-weight: 500;
 }

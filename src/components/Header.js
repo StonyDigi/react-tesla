@@ -16,13 +16,10 @@ const Header = ({logo, menu}) => {
                 <a href="/">Solar Panel</a>
             </div>
 
-            <div className='nav-links-secondary'>
+            <div className="nav-links-secondary">
                 <a href="/">Támogatás</a>
                 <a href="/">Fiók</a>
-
             </div>
-
-            
 
             <div className="mobile-menu">
                 <img src={menu} alt="mobile-menu" />
